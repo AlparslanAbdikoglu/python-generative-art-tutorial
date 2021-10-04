@@ -36,7 +36,7 @@ def interpolate(start_color, end_color, factor: float):
 
 
 def generate_art(collection: str, name: str):
-    print("Generating art")
+    print("Generating  NFT art")
 
     # Figure out where we are going to put it.
     output_dir = os.path.join("output", collection)
@@ -53,7 +53,7 @@ def generate_art(collection: str, name: str):
     image = Image.new("RGB", (image_size_px, image_size_px), bg_color)
 
     # How many lines do we want to draw?
-    num_lines = 20
+    num_lines = 17
     points = []
 
     # Pick the colors.
