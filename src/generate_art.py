@@ -44,7 +44,7 @@ def generate_art(collection: str, name: str):
 
     # Set size parameters.
     rescale = 2
-    image_size_px = 128 * rescale
+    image_size_px = 256 * rescale
     padding = 12 * rescale
 
     # Create the directory and base image.
@@ -53,7 +53,7 @@ def generate_art(collection: str, name: str):
     image = Image.new("RGB", (image_size_px, image_size_px), bg_color)
 
     # How many lines do we want to draw?
-    num_lines = 10
+    num_lines = 20
     points = []
 
     # Pick the colors.
